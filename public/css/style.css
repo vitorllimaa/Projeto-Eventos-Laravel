@@ -9,6 +9,17 @@ body {
     position: relative;
 }
 
+main .container-fluid {
+    padding: 0;
+}
+
+.row .alert-success {
+    width: 100%;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+}
+
 .navbar-light .navbar-brand {
     align-items: center;
 }
@@ -148,6 +159,52 @@ footer h6 {
 #event-create-container input,
 #event-create-container select,
 #event-create-container textarea {
-    padding: 10px;
+    padding: 6px;
     font-size: 16px;
+}
+
+#image-container,
+#info-container {
+    margin-top: 30px;
+}
+
+#image-container img {
+    border-radius: 10px;
+}
+
+#info-container h1 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p {
+    margin: 10px;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3,
+#description-container h3 {
+    font-size: 20px;
+    font-weight: bold; 
+    margin-top: 10px;
+}
+
+#info-container ion-icon {
+    font-size: 20px;
+    color: #007bff;
+    margin-right: 5px;
+}
+
+#info-container #event-submit {
+    margin: 20px 0;
+}
+
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li {
+    display: flex;
 }

@@ -14,15 +14,15 @@
     <p class="subtitle">Veja os eventos dos próximos dias</p>
     <div id="cards-container" class="row">
         @foreach ($events as $event)
-        <div class="card col-md-3">
-            <img src="/img/event_placeholder.jpg" alt="{{$event->title}}">
-            <div class="card-body">
-                <p class="card-date">{{$event->created_at}}</p>
-                <h5 class="card-title">{{$event->title}}</h5>
-                <p class="card-participants">x Participantes</p>
-                <a href="/" class="btn btn-primary">Saber Mais...</a>
+            <div class="card col-md-3">
+                <img src="/img/upload_image/events/{{$event->image}}" alt="{{$event->title}}">
+                <div class="card-body">
+                    <p class="card-date">{{$event->created_at}}</p>
+                    <h5 class="card-title">{{$event->title}}</h5>
+                    <p class="card-participants">x Participantes</p>
+                    <a href="/events/{{$event->id}}" class="btn btn-primary">Saber Mais...</a>
+                </div>
             </div>
-        </div>
         @endforeach
     </div>
 </div>
