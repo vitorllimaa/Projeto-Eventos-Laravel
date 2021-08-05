@@ -36,13 +36,23 @@ main .container-fluid {
     padding: 0;
 }
 
-.card-body .btn-primary {
-    background-color: #f2a340;
+#btn {
+    background-color: #ff5722;
     border-color: #aaa;
 
 }
 
-.card-body .btn-primary:hover {
+#btn:hover {
+    background-color: #f2a340;
+    border-color: #f2a340;
+}
+
+#btn:active {
+    background-color: #f2a340;
+    border-color: #f2a340;
+}
+
+.card-body .btn-primary:link {
     background-color: #f2a340;
     border-color: #f2a340;
 }
