@@ -218,3 +218,27 @@ footer h6 {
 #items-list li {
     display: flex;
 }
+
+.dashboard-title-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container td #title {
+    color: inherit;
+    text-decoration: none;
+}
+
+.dashboard-events-container td:hover #title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+
+
+
+
